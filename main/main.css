@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+.cards .card_left {
+  text-align: center;
+  padding: 38px 80px 66px 80px;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #6643ff 0%, #312cea 100%);
+}
+.card_left h2 {
+  color: #cec6ff;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.22px;
+}
+.circle {
+  margin-top: 39px;
+  border-radius: 113px;
+  /* border: 1px solid white; */
+  padding: 49px 65px 56px 69px;
+  background-color: #4d22c9;
+}
+
+.circle .p1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+}
+.circle .p2 {
+  color: #857cf3;
+  font-size: 18px;
+  font-weight: 700;
+}
+.card_left h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 27px;
+}
+.card_left .p3 {
+  color: #c0c1ff;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 135.294%;
+  letter-spacing: -0.425px;
+  max-width: 209px;
+  margin-top: 18px;
+}
+.card_right {
+  background-color: hsl(0deg 1.13% 98.4%);
+  padding: 40px 40px 45px 40px;
+  border-radius: 30px;
+}
+.card_right h2 {
+  color: #323d58;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.texts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding: 18px;
+}
+.card_right:first-child {
+  background-color: #f1aeb1;
+}
+.icon_text {
+  display: flex;
+  gap: 18px;
+}
+.icon_text .p4 {
+  color: #e1676d;
+  font-size: 16px;
+  font-weight: 700;
+}
+.icon_text .p5 {
+  color: #ddbb64;
+  font-size: 16px;
+  font-weight: 700;
+}
+.icon_text .p6 {
+  color: #2ca989;
+  font-size: 16px;
+  font-weight: 700;
+}
+.icon_text .p7 {
+  color: #3742ce;
+  font-size: 16px;
+  font-weight: 700;
+}
+.card_right button {
+  border: none;
+  margin-top: 26px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 18px 110px;
+  background: linear-gradient(180deg, #6543ff 0%, #0401ff 100%);
+}
+.texts:nth-child(2) {
+  border-radius: 10px;
+  background: #fff6f5;
+}
+.texts:nth-child(3) {
+  border-radius: 10px;
+  background: #fffbf2;
+}
+.texts:nth-child(4) {
+  border-radius: 10px;
+  background: #f2fbfa;
+}
+.texts:nth-child(5) {
+  border-radius: 10px;
+  background: #f3f3fd;
+}
+.texts p span {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+.texts p {
+  color: #969198;
+  font-size: 18px;
+  font-weight: 700;
+}
